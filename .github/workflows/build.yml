@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm install
-          npx @11ty/eleventy --pathprefix=h-o-pr
+          npx @11ty/eleventy --pathprefix=heart-of-puerto-rico
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
